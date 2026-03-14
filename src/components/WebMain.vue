@@ -123,7 +123,7 @@ export default {
         {
           id: 500,
           uname: "图欧学习导航",
-          link: "https://a.zhuxuelo.top/index/chaxun",
+          link: "https://tuostudy.upnb.top/#term-360",
           desc: "各种资源，等你去发现~",
         }, // 注意：id要唯一，这里改成20开始自增
         {

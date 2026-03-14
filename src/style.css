@@ -12,7 +12,7 @@
 /* 身体样式 */
 .web-main {
   width: auto;
-  min-height: auto;
+  height: auto;
   background-color: beige;
   margin: 20px auto;
   padding: 0 10px;
