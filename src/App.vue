@@ -26,8 +26,16 @@ export default {
 
 <style>
 .App {
-  width: auto;
-  height: auto;
   background-color: rgb(123, 0, 0);
+  margin: auto;
+  max-width: 100%;
+  overflow-x: hidden; /* 隐藏横向滚动条 */
+  min-height: 100vh; /* 确保页面至少占满整个视口高度 */
+  display: flex; /* 使用 Flex 布局 */
+  flex-direction: column; /* 垂直排列子元素 */
+}
+
+.WebMain {
+  flex: 1; /* 让主体部分占据剩余空间 */
 }
 </style>
