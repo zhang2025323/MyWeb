@@ -1,79 +1,145 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* 头部样式 */
+.web-header {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "微软雅黑";
+  color: #fff;
+  background-color: rgb(61, 64, 62);
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+/* 身体样式 */
+.web-main {
+  width: auto;
+  min-height: auto;
+  background-color: beige;
+  margin: 20px auto;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.type1 {
+  min-height: 460px;
+  color: black;
+  font-size: 10px;
+  background-color: rgb(144, 153, 107);
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.type2 {
+  min-height: 460px;
+  color: black;
+  font-size: 10px;
+  background-color: rgb(144, 153, 107);
+  margin-top: 10px;
 }
 
-.card {
-  padding: 2em;
+.tu {
+  height: 30px;
+  width: auto;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.tu1 {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.text {
+  font: normal bold 21px 微软雅黑;
+  background-color: #e3ae1c;
+  text-indent: 1em;
   text-align: center;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.web {
+  width: 120px;
+  height: 50px;
+  border-radius: 10%;
+  text-align: center;
+  margin: 10px;
+  background-color: #4c8e8c;
+  font-size: 16px;
+  font-family: 微软雅黑;
+  line-height: 50px;
+  box-shadow: 6px 2px 6px;
+  position: relative;
+  /* 让tooltip相对于盒子定位 */
+}
+
+.tooltip {
+  position: absolute;
+  top: -30px;
+  /* 显示在盒子上方 */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  background: #333;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  white-space: nowrap;
+  /* 防止信息换行 */
+  opacity: 0;
+  /* 默认透明（隐藏） */
+  visibility: hidden;
+  /* 隐藏不占空间 */
+  transition: all 0.2s;
+  /* 过渡动画 */
+}
+
+/* 鼠标悬浮盒子时，显示tooltip */
+.web:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: -65px;
+  /* 稍微上移一点，增加动画感 */
+}
+
+/* 可选：加个小三角 */
+.tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+  /* 三角朝下 */
+}
+
+.web a {
+  text-decoration: none;
+  color: #333;
+}
+
+.web a:hover {
+  color: #33cd1b;
+}
+
+.N {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 底部样式 */
+.web-footer {
+  line-height: 60px;
+  background-color: rgb(61, 64, 62);
+}
+
+.web-footer1 {
+  left: 2000px;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  color: #fff;
+}
+
+.web-footer2 {
+  text-align: center;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #fff;
+  margin: 20px 0;
 }

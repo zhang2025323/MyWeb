@@ -26,8 +26,8 @@ export default {
 
 <style>
 .App {
-  width: 100%;
-  height: 1080px;
-  background-color: rgb(239, 238, 238);
+  width: auto;
+  height: auto;
+  background-color: rgb(123, 0, 0);
 }
 </style>

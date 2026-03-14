@@ -1,7 +1,7 @@
 <template>
   <div class="web-main">
     <div class="type1">
-      <div class="text">学习导航</div>
+      <div class="text">学习<img class="tu" src="~@/assets/icons/书.png"/>导航</div>
       <div class="N">
         <div class="web" v-for="item in weblist1" :key="item.id">
           <a :href="item.link" target="_blank">
@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="type2">
-      <div class="text">工具导航</div>
+      <div class="text">工具<img class="tu" src="~@/assets/icons/gongju.png"/>导航</div>
       <div class="N">
         <div class="web" v-for="item in weblist2" :key="item.id">
           <a :href="item.link" target="_blank">
@@ -114,8 +114,8 @@ export default {
           id: 13,
           content: "Netlify",
           link: "https://www.netlify.com/",
-          desc: "国外的游戏开发网站", 
-        }
+          desc: "一个面向现代 Web 应用的一站式云开发与部署平台", 
+        },
       ],
 
       // 把weblist2放在同一个data返回对象里
@@ -175,409 +175,38 @@ export default {
           desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
         },
         {
-          id: 508,
+          id: 509,
           uname: "良工绘图",
           link: "https://www.lghuitu.com/",
           desc: "在线制作 流程图、架构图、平面图、电路图和宣传册",
         },
         {
-          id: 508,
+          id: 510,
           uname: "免费矢量图标",
           link: "https://igoutu.cn/icons",
           desc: "超过1万个图标，无论用于哪种都可以找到！",
         },
         {
-          id: 508,
+          id: 511,
           uname: "工具箱",
           link: "https://tools.liumingye.cn/",
           desc: "刘明野的工具箱-提供好用，易用的工具",
         },
         {
-          id: 508,
+          id: 512,
           uname: "软仓",
           link: "https://softs.wandhi.com/#/",
           desc: "资源分享平台",
         },
         {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
+          id: 513,
+          uname: "优优软件安装",
+          link: "https://mp.weixin.qq.com/s/79MccblNTv8lTIvdDPJdLQ",
+          desc: "官方原版 零病毒 零插件 无捆绑 免费下载",
         },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        {
-          id: 508,
-          uname: "在线转换",
-          link: "https://www.aconvert.com/cn/",
-          desc: "在线转换各类PDF文档,电子书,图像,图标,视频,音频和压缩文件",
-        },
-        
+      
       ],
     };
   },
 };
 </script>
-
-<style>
-.web-main {
-  width: auto;
-  min-height: 900px;
-  background-color: beige;
-  margin: 20px auto;
-  padding: 0 10px;
-  box-sizing: border-box;
-}
-.type1 {
-  min-height: 445px;
-  color: black;
-  font-size: 10px;
-  background-color: rgb(215, 215, 215);
-}
-.type2 {
-  min-height: 445px;
-  color: black;
-  font-size: 10px;
-  background-color: rgb(215, 215, 215);
-  margin-top: 10px;
-}
-.text {
-  font: normal bold 21px 微软雅黑;
-  background-color: #f65c5c;
-  text-indent: 1em;
-}
-.web {
-  width: 97px;
-  height: 50px;
-  border-radius: 10%;
-  text-align: center;
-  margin: 10px;
-  background-color: #decd8a;
-  font-size: 16px;
-  font-family: 微软雅黑;
-  line-height: 50px;
-  box-shadow: 6px 2px 6px;
-  position: relative; /* 让tooltip相对于盒子定位 */
-}
-
-.tooltip {
-  position: absolute;
-  top: -30px; /* 显示在盒子上方 */
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 5px 10px;
-  background: #333;
-  color: #fff;
-  font-size: 12px;
-  border-radius: 4px;
-  white-space: nowrap; /* 防止信息换行 */
-  opacity: 0; /* 默认透明（隐藏） */
-  visibility: hidden; /* 隐藏不占空间 */
-  transition: all 0.2s; /* 过渡动画 */
-}
-/* 鼠标悬浮盒子时，显示tooltip */
-.web:hover .tooltip {
-  opacity: 1;
-  visibility: visible;
-  top: -65px; /* 稍微上移一点，增加动画感 */
-}
-/* 可选：加个小三角 */
-.tooltip::after {
-  content: "";
-  position: absolute;
-  bottom: -15px;
-  left: 50%;
-  transform: translateX(-50%);
-  border-width: 5px;
-  border-style: solid;
-  border-color: #333 transparent transparent transparent; /* 三角朝下 */
-}
-
-.web a {
-  text-decoration: none;
-  color: #333;
-}
-.web a:hover {
-  color: #409eff;
-}
-.N {
-  display: flex;
-  flex-wrap: wrap;
-}
-</style>
