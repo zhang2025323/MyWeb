@@ -37,6 +37,13 @@ export default {
     return {
       weblist1: [
         {
+          id: 20,
+          content: "又拍云控制台",
+          link: "https://console.upyun.com",
+          desc: "管理云存储、CDN 加速等云服务的操作后台",
+          icon1: new URL('@/assets/icons/upyun.png', import.meta.url).href,
+        },
+        {
           id: 0,
           content: "小黑题库",
           link: "http://124.221.48.166/DuiHuanMaWeb/admin/allsofts.php",

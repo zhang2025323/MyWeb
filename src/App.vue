@@ -2,20 +2,20 @@
   <div class="App">
     <!-- 添加第一个音频元素 -->
     <audio ref="audioPlayer1" autoplay loop>
-      <source src="@/assets/干.mp3" type="audio/mpeg">
+      <source src="@/assets/anjin.mp3" type="audio/mpeg">
     </audio>
         <!-- 第二个音频元素 -->
     <audio ref="audioPlayer2" loop>
-      <source src="@/assets/我们之间.mp3" type="audio/mpeg">
+      <source src="@/assets/zhengf.mp3" type="audio/mpeg">
     </audio>
 
     <!-- 添加音乐控制按钮 -->
     <button @click="toggleMusic1" class="music-control">
-      {{ isPlaying1 ? '停止播放' : '鸡汤' }}
+      {{ isPlaying1 ? '停止播放' : '休息一会儿' }}
     </button>
     <!-- 第二个音乐控制按钮 -->
-    <button @click="toggleMusic2" class="music-control-2">
-      {{ isPlaying2 ? '停止播放' : '我们之间' }}
+    <button @click="toggleMusic2" class="music-contro2">
+      {{ isPlaying2 ? '停止播放' : '醒醒瞌睡' }}
     </button>
 
     <!-- 头部组件 -->
