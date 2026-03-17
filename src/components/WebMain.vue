@@ -45,7 +45,7 @@ export default {
         },
         {
           id: 20,
-          content: "又拍云控制台",
+          content: "又拍云",
           link: "https://console.upyun.com",
           desc: "管理云存储、CDN 加速等云服务的操作后台",
           icon1: new URL('@/assets/icons/upyun.png', import.meta.url).href,
@@ -108,7 +108,7 @@ export default {
         },
         {
           id: 8,
-          content: "SSM 学习指南",
+          content: "SSM 学习",
           link: "https://www.wolai.com/v5Kuct5ZtPeVBk4NBUGBWF",
           desc: "快速掌握：全新SSM+Spring Boot+MyBatis-Plus实战精讲",
           icon1: new URL('@/assets/icons/spring.png', import.meta.url).href,
@@ -122,7 +122,7 @@ export default {
         },
         {
           id: 10,
-          content: "W3编程学习",
+          content: "W3编程",
           link: "https://www.w3school.com.cn/",
           desc: "编程的学习资料，里面有一些基础的代码学习和文字讲解",
           icon1: new URL('@/assets/icons/3.png', import.meta.url).href,
@@ -184,7 +184,7 @@ export default {
         },
         {
           id: 502,
-          uname: "素材资源网",
+          uname: "素材资源",
           link: "https://www.sucaizy.com/",
           desc: "提供各类素材资源",
           icon2: new URL('@/assets/icons/ziyuan.svg', import.meta.url).href,
@@ -240,7 +240,7 @@ export default {
         },
         {
           id: 510,
-          uname: "免费矢量图标",
+          uname: "矢量图标",
           link: "https://igoutu.cn/icons",
           desc: "超过1万个图标，无论用于哪种都可以找到！",
           icon2: new URL('@/assets/icons/shiliang.svg', import.meta.url).href,
@@ -261,7 +261,7 @@ export default {
         },
         {
           id: 513,
-          uname: "优优软件安装",
+          uname: "优优软件",
           link: "https://mp.weixin.qq.com/s/79MccblNTv8lTIvdDPJdLQ",
           desc: "官方原版 零病毒 零插件 无捆绑 免费下载",
           icon2: new URL('@/assets/icons/NTI4MWU5.ico', import.meta.url).href,

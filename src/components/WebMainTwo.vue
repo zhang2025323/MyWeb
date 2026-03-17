@@ -38,9 +38,10 @@ export default {
       weblist1: [
         {
           id: 0,
-          content: "GitHub 部署",
+          content: "GitHub部署",
           link: "https://www.yuque.com/g/u54918272/pwefbc/bkzbwf6hz2fatg7g/collaborator/join?token=Ap5jxnkXDGxi4j97&source=doc_collaborator# 《Vue3 + Vite 项目部署至 GitHub Pages 全攻略》",
           desc: "温馨提示:需要注册登陆后才能访问哦~",
+          icon1: new URL('@/assets/icons/wen.jpg', import.meta.url).href,
         },
 
       ],
