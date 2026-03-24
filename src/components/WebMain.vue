@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="type">
-      <div class="text">其他<img class="tu" src="~@/assets/icons/gongju.png"/>工具</div>
+      <div class="text">其他<img class="tu" src="~@/assets/icons/gongju.png"/>链接</div>
       <div class="N">
         <div class="web" v-for="item in weblist2" :key="item.id">
           <a :href="item.link" target="_blank" class="web-a">
@@ -155,6 +155,13 @@ export default {
           desc: "让你听到全世界各个国家，真人发音的网站", 
           icon1: new URL('@/assets/icons/Forvo.ico', import.meta.url).href,
         },
+        {
+          id: 15,
+          content: "NEEA",
+          link: "https://www.neea.edu.cn/",
+          desc: "教育部教育考试院主办的官方平台", 
+          icon1: new URL('@/assets/icons/NEEA.png', import.meta.url).href,
+        },
       ],
 
       
@@ -279,6 +286,13 @@ export default {
           link: "https://www.iconfont.cn",
           desc: "阿里巴巴矢量图标库",
           icon2: new URL('@/assets/icons/albb.png', import.meta.url).href,
+        },
+        {
+          id: 516,
+          uname: "FC8软件库",
+          link: "https://fc8.top/",
+          desc: "免费软件下载站",
+          icon2: new URL('@/assets/icons/fc8.svg', import.meta.url).href,
         },
       ],
     };
