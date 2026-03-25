@@ -163,12 +163,19 @@
 
 /* 底部样式 */
 .web-footer {
-  height: 210px;
-  line-height: 60px;
+  height: auto;
+  /* 保持自动高度 */
+  padding: 15px 0;
+  /* 添加上下内边距 */
   background-color: rgb(61, 64, 62);
   margin-top: 10px;
   position: relative;
-  /* 新增，用于定位按钮 */
+  display: flex;
+  /* 添加 flex 布局 */
+  flex-direction: column;
+  /* 垂直排列 */
+  justify-content: center;
+  /* 垂直居中 */
 }
 
 .web-footer1 {
@@ -188,8 +195,8 @@
 /* 打赏按钮样式 */
 .reward-btn {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: 90px;
+  right: 30px;
   padding: 10px 20px;
   background-color: #FFD700;
   color: white;

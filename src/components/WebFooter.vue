@@ -2,9 +2,8 @@
   <div class="web-footer">
     <p class="web-footer1"><img class="tu1" src="~@/assets/icons/icons8-邮箱与信-100.png"/>联系邮箱：2419771662@qq.com</p>
     <p class="web-footer2">持续更新中 欢迎投稿</p>
-    <p class="web-footer2">
-      <span id="currentTime"></span> © <span id="currentYear"></span> 所有资源均来源与网络 仅供参考与学习
-    </p>
+    <p class="web-footer2"><span id="currentTime"></span></p>
+    <p class="web-footer2"> © <span id="currentYear"></span> 所有资源均来源与网络 仅供参考与学习</p>
     <!-- 打赏按钮 -->
     <button class="reward-btn" @click="showReward = true">💰打赏作者💰</button>
     <!-- 收款码弹窗 -->
