@@ -95,6 +95,13 @@ export default {
           icon1: new URL('@/assets/icons/mqtt.webp', import.meta.url).href,
         },
         {
+          id: 23,
+          content: "Sa-Token",
+          link: "https://sa-token.cc/index.html",
+          desc: "MQTT协议中文站",
+          icon1: new URL('@/assets/icons/Sa.webp', import.meta.url).href,
+        },
+        {
           id: 8,
           content: "小黑题库",
           link: "http://124.221.48.166/DuiHuanMaWeb/admin/allsofts.php",
@@ -248,6 +255,13 @@ export default {
           link: "https://app.diagrams.net/",
           desc: "面向团队的安全优先绘图工具",
           icon2: new URL('@/assets/icons/er.webp', import.meta.url).href,
+        },
+        {
+          id: 522,
+          uname: "ProcessOn",
+          link: "https://www.processon.com/",
+          desc: "免费在线流程图思维导图",
+          icon2: new URL('@/assets/icons/on.webp', import.meta.url).href,
         },
         {
           id: 507,
