@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [vue()],
   // 关键配置：设置基础路径
   // 格式：/你的仓库名称/
-  base: '/',
+  base: '/MyWeb/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')
